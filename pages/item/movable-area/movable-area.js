@@ -1,38 +1,11 @@
-// home.js
+// movable-area.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cardList: [
-      'letter-index',
-      'view',
-      'scroll-view',
-      'swiper',
-      'movable-area',
-      'icon',
-      'text',
-      'progress',
-      'button',
-      'checkbox',
-      'form',
-      'input',
-      'label',
-      'picker',
-      'picker-view',
-      'radio',
-      'slider',
-      'switch',
-      'textarea',
-      'navigator',
-      'audio',
-      'image',
-      'video',
-      'map',
-      'canvas',
-      'contact-button'
-    ]
+
   },
 
   /**
@@ -89,14 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  /**
-   * 页面跳转
-   */
-  goItem: function (event) {
-    let url = '../item/' + event.currentTarget.dataset.name + '/' + event.currentTarget.dataset.name;
-    wx.navigateTo({
-      url: url
-    })
   }
 })

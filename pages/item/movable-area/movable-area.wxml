@@ -1,0 +1,13 @@
+<!--movable-area.wxml-->
+<view class="title">movable-view区域小于movable-area</view>
+<movable-area>
+  <movable-view direction="all" inertia out-of-bounds
+  damping="1000" friction="1000">
+  </movable-view>
+</movable-area>
+<view class="title">movable-view区域大于movable-area</view>
+<movable-area>
+  <movable-view class="big" direction="all" inertia out-of-bounds
+  damping="1000" friction="1000">
+  </movable-view>
+</movable-area>
