@@ -1,0 +1,14 @@
+<!--letter-index.wxml-->
+<scroll-view style="height:{{screenHeight}}px" scroll-y 
+scroll-with-animation scroll-into-view="{{intoView}}">
+  <block wx:for="{{letterArr}}" wx:key="*this">
+    <view id="{{item}}" class="list-section">{{item}}</view>
+    <view class="list-item" >{{index}}-啦啦啦啦啦^_^</view>
+  </block>
+</scroll-view>
+<!--右侧字母索引-->
+<view class="{{letterClass}}">
+  <view class="index-item" id="{{item}}" wx:for="{{letterArr}}" wx:key="*this" 
+  catchtouchstart="touchstart" catchtouchmove="touchmove" catchtouchend="touchend">{{item}}</view>
+</view>
+<view class="letter-show" wx:if="{{letterShow}}">{{currentLetter}}</view>

@@ -1,0 +1,28 @@
+<!--view.wxml-->
+<view class="item-wrap">
+  <!--普通引用-->
+  <text class="title">普通用法</text>
+  <view>
+    <view class="default">默认宽高</view>
+    <view class="item">设置宽高</view>
+  </view>
+  <!--属性-->
+  <text class="title">hover-class</text>
+  <view class="row">
+    <view class="item" hover-class="bg-red">bg-red</view>
+    <view class="item" hover-class="font-small">font-small</view>
+    <view class="item" hover-class="opacity">opacity</view>
+  </view>
+  <text class="title">hover-start-time</text>
+  <view class="row">
+    <view class="item" hover-class="opacity">50ms</view>
+    <view class="item" hover-class="opacity" hover-start-time="500">500ms</view>
+    <view class="item" hover-class="opacity" hover-start-time="1000">1000ms</view>
+  </view>
+  <text class="title">hover-stay-time</text>
+  <view class="row">
+    <view class="item" hover-class="opacity" hover-stay-time="50">50ms</view>
+    <view class="item" hover-class="opacity" hover-stay-time="500">500ms</view>
+    <view class="item" hover-class="opacity" hover-stay-time="1000">1000ms</view>
+  </view>
+</view>

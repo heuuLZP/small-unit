@@ -1,0 +1,4 @@
+/* swiper.wxss */
+.swiper-width {
+  width: 100%;
+}

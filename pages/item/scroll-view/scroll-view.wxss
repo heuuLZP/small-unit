@@ -1,0 +1,38 @@
+/* scroll-view.wxss */
+.title {
+  margin-bottom:20rpx;
+  font-size: 28rpx;
+  color:red;
+}
+.row {
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 20rpx;
+}
+.default {
+  margin-right: 20rpx;
+  border: 2rpx solid #99cc33;
+  float: left;
+}
+.scroll-height {
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+.scroll-width {
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+  white-space: nowrap;
+}
+.child-item {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 300rpx;
+  box-sizing: border-box;
+  background: orange;
+  border: 2rpx solid black;
+}
+.inline-block {
+  display: inline-block;
+}

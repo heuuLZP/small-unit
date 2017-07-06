@@ -1,0 +1,10 @@
+<!--swiper.wxml-->
+<view class="item-wrap">
+  <swiper class="swiper-width">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}"></image>
+    </swiper-item>
+    </block>
+  </swiper>
+</view>

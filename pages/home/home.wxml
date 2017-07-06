@@ -1,0 +1,8 @@
+<!--home.wxml-->
+<view class="header">
+  <text>组件</text>
+</view>
+<view class="home-wrap">
+  <view bindtap="goItem" data-name="{{item}}" class="card" wx:for="{{cardList}}" wx:key="*this" >{{item}}</view>
+</view>
+

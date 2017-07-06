@@ -1,0 +1,24 @@
+<!--scroll-view.wxml-->
+<view class="item-wrap">
+  <!--vertical scroll-view-->
+  <text class="title">vertical scroll-view</text>
+  <scroll-view class="scroll-height" scroll-y enable-back-to-top 
+  scroll-top="50" scroll-with-animation scroll-into-view="three"
+  bindscroll="scroll" bindscrolltoupper="upper" bindscrolltolower="lower" 
+  upper-threshold="0">
+    <view class="child-item">one</view>
+    <view class="child-item">two</view>
+    <view id="three" class="child-item">three</view>
+  </scroll-view>
+  <!--horizotal scroll-view-->
+  <text class="title">horizotal scroll-view</text>
+  <scroll-view class="scroll-width" scroll-x scroll-left="50" scroll-with-animation>
+    <view class="child-item inline-block">one</view>
+    <view class="child-item inline-block">two</view>
+    <view class="child-item inline-block">three</view>
+  </scroll-view>
+  <text class="title">注:</text>
+  <view class="remark">
+    scroll-top以及upper-threshold属性对bindscrolltoupper有影响
+  </view>
+</view>

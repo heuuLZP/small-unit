@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/**
+  组件item页面的外部容器
+**/
+.item-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50rpx 30rpx;
+  box-sizing: border-box;
+}
+.remark {
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  color: #333;
+  word-break: break-all;
+}
