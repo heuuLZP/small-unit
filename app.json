@@ -12,7 +12,8 @@
     "pages/item/text/text",
     "pages/item/progress/progress",
     "pages/item/button/button",
-    "pages/item/checkbox/checkbox"
+    "pages/item/checkbox/checkbox",
+    "pages/item/form/form"
   ],
   "window": {
     "backgroundTextStyle": "light",

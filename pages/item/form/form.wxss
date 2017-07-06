@@ -1,0 +1,4 @@
+/* form.wxss */
+.section {
+  padding: 20rpx 10rpx;
+}
