@@ -19,9 +19,16 @@
   padding: 50rpx 30rpx;
   box-sizing: border-box;
 }
+/*注意事项*/
 .remark {
   padding: 0 30rpx;
   font-size: 28rpx;
   color: #333;
   word-break: break-all;
+}
+/*标题*/
+.title {
+  margin-bottom:20rpx;
+  font-size: 28rpx;
+  color:red;
 }

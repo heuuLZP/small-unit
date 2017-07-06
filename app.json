@@ -7,7 +7,8 @@
     "pages/item/scroll-view/scroll-view",
     "pages/item/swiper/swiper",
     "pages/item/letter-index/letter-index",
-    "pages/item/movable-area/movable-area"
+    "pages/item/movable-area/movable-area",
+    "pages/item/icon/icon"
   ],
   "window": {
     "backgroundTextStyle": "light",
