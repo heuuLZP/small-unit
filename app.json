@@ -8,7 +8,8 @@
     "pages/item/swiper/swiper",
     "pages/item/letter-index/letter-index",
     "pages/item/movable-area/movable-area",
-    "pages/item/icon/icon"
+    "pages/item/icon/icon",
+    "pages/item/text/text"
   ],
   "window": {
     "backgroundTextStyle": "light",

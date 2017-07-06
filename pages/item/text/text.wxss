@@ -1,0 +1,16 @@
+/* text.wxss */
+.one-ellipsis {
+  display: inline-block;
+  width: 200rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+.more-ellipsis {
+   display: -webkit-box;
+   word-break: break-all;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp:2;
+   overflow: hidden;
+   text-overflow:ellipsis;
+}
