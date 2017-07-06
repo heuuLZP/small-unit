@@ -1,0 +1,18 @@
+<!--progress.wxml-->
+<view class="title">默认</view>
+<progress />
+<view class="title">percent</view>
+<progress percent="30" />
+<view class="title">show-info</view>
+<progress percent="30" show-info />
+<view class="title">stroke-width</view>
+<progress percent="30" stroke-width="3" />
+<view class="title">color</view>
+<progress percent="30" color="pink" />
+<view class="title">activeColor</view>
+<progress percent="30" activeColor="pink" />
+<view class="title">backgroundColor</view>
+<progress percent="30" backgroundColor="pink" />
+<view class="title">active</view>
+<progress percent="60" active />
+
