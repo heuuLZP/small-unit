@@ -1,0 +1,4 @@
+/* button.wxss */
+.red {
+  background: red;
+}

@@ -1,9 +1,13 @@
 <!--text.wxml-->
+<!--默认-->
 <view class="title">默认</view>
 <text>this is text</text>
+<!--可选-->
 <view class="title">可选</view>
 <text selectable>this is selectable</text>
+<!--单行省略-->
 <view class="title">单行省略</view>
 <text class="one-ellipsis">this is a very long statement</text>
+<!--多行省略-->
 <view class="title">多行省略</view>
 <text class="more-ellipsis">我本以为遇到和自己一样的人就可以分担痛苦和忧愁了 我还以为这会是一件很美好的事。 但是跟我一样的人对我来说 才是最危险的。</text>

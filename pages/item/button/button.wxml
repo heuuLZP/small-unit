@@ -1,0 +1,31 @@
+<!--button.wxml-->
+<!--默认-->
+<view class="title">默认</view>
+<button>btn</button>
+<!--size-->
+<view class="title">size</view>
+<button wx:for="{{sizeArr}}" wx:key="*this" size="{{item}}">{{item}}</button>
+<!--type-->
+<view class="title">type</view>
+<button wx:for="{{typeArr}}" wx:key="*this" type="{{item}}">{{item}}</button>
+<!--plain-->
+<view class="title">plain</view>
+<button plain>btn</button>
+<!--disabled-->
+<view class="title">disabled</view>
+<button disabled>btn</button>
+<!--loading-->
+<view class="title">loading</view>
+<button loading>btn</button>
+<!--form-type-->
+<view class="title">form-type</view>
+<form>
+<input value="haha" style="border: 1px solid #e4e4e4;margin-bottom:10px;" />
+<button wx:for="{{formTypeArr}}" wx:key="*this" form-type="{{item}}">{{item}}</button>
+</form>
+<!--open-type-->
+<view class="title">open-type</view>
+<button wx:for="{{openTypeArr}}" wx:key="*this" open-type="{{item}}">{{item}}</button>
+<!--loading-->
+<view class="title">hover-class</view>
+<button hover-class="red">btn</button>

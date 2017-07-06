@@ -10,7 +10,8 @@
     "pages/item/movable-area/movable-area",
     "pages/item/icon/icon",
     "pages/item/text/text",
-    "pages/item/progress/progress"
+    "pages/item/progress/progress",
+    "pages/item/button/button"
   ],
   "window": {
     "backgroundTextStyle": "light",

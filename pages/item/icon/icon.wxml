@@ -1,13 +1,16 @@
 <!--icon.wxml-->
+<!--size-->
 <view class="title">size</view>
 <view>
   <icon wx:for="{{iconSize}}" type="success" size="{{item}}" />
 </view>
+<!--color-->
 <view class="title">color</view>
 <view>
   <icon wx:for="{{iconColor}}" type="success" color="{{item}}" />
 </view>
-<view class="title">typer</view>
+<!--type-->
+<view class="title">type</view>
 <view>
   <icon wx:for="{{iconType}}" type="{{item}}" />
 </view>
