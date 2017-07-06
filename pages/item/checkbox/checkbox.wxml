@@ -1,0 +1,15 @@
+<!--checkbox.wxml-->
+<checkbox-group bindchange="bindchange">
+  <label wx:for="{{items}}" wx:key="name">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+  </label>
+  <!--disabled-->
+   <label>
+    <checkbox value="" disabled />禁用
+  </label>
+  <!--color-->
+   <label>
+    <checkbox value="" color="pink" />pink
+  </label>
+</checkbox-group>
+<view>{{print}}</view>
