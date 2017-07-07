@@ -13,7 +13,8 @@
     "pages/item/progress/progress",
     "pages/item/button/button",
     "pages/item/checkbox/checkbox",
-    "pages/item/form/form"
+    "pages/item/form/form",
+    "pages/item/input/input"
   ],
   "window": {
     "backgroundTextStyle": "light",

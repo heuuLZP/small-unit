@@ -1,0 +1,36 @@
+<!--input.wxml-->
+<!--default-->
+<view class="title">default</view>
+<input  />
+<!--placeholder-->
+<view class="title">placeholder</view>
+<input placeholder="啦啦"  />
+<!--type-->
+<view class="title">type</view>
+<block wx:for="{{typeArr}}" wx:key="*this">
+  <input type="{{item}}" placeholder="{{item}}" />
+</block>
+<!--password-->
+<view class="title">password</view>
+<input placeholder="password" password  />
+<!--disabled-->
+<view class="title">disabled</view>
+<input placeholder="disabled" disabled  />
+<!--maxlength-->
+<view class="title">maxlength</view>
+<input placeholder="maxlength" maxlength="10"  />
+<!--cursor-spacing-->
+<view class="title">cursor-spacing</view>
+<input placeholder="cursor-spacing" cursor-spacing="100"  />
+<!--focus-->
+<view class="title">focus</view>
+<input placeholder="focus" focus="{{true}}"  />
+<!--confirm-type-->
+<view class="title">confirm-type</view>
+<block wx:for="{{confiremArr}}" wx:key="*this">
+  <input placeholder="{{item}}" confirm-type="{{item}}"  />
+</block>
+
+<!--confirm-hold-->
+<view class="title">confirm-hold</view>
+<input placeholder="confirm-hold" confirm-hold="{{true}}"  />
