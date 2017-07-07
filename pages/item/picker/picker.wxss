@@ -1,0 +1,6 @@
+/* picker.wxss */
+.picker {
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 2px solid #e4e4e4;
+}
