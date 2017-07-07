@@ -1,4 +1,8 @@
 /* input.wxss */
 input {
+  width: 400rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
   border: 1px solid #e4e4e4;
+  font-size: 30rpx;
 }

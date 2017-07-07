@@ -2,3 +2,9 @@
 .section {
   padding: 20rpx 10rpx;
 }
+label {
+  margin-right: 30rpx;
+}
+button {
+  margin-bottom: 20rpx;
+}

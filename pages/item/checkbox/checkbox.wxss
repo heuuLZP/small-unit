@@ -1,1 +1,9 @@
 /* checkbox.wxss */
+.wrap {
+  padding-left: 40rpx;
+}
+label {
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+}

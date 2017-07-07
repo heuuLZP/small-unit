@@ -2,3 +2,6 @@
 .red {
   background: red;
 }
+button {
+  margin-bottom: 20rpx;
+}
