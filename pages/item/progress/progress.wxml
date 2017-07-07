@@ -1,26 +1,29 @@
 <!--progress.wxml-->
-<!--默认-->
-<view class="title">默认</view>
-<progress />
-<!--percent-->
-<view class="title">percent</view>
-<progress percent="30" />
-<!--show-info-->
-<view class="title">show-info</view>
-<progress percent="30" show-info />
-<!--stroke-width-->
-<view class="title">stroke-width</view>
-<progress percent="30" stroke-width="3" />
-<!--color-->
-<view class="title">color</view>
-<progress percent="30" color="pink" />
-<!--activeColor-->
-<view class="title">activeColor</view>
-<progress percent="30" activeColor="pink" />
-<!--backgroundColor-->
-<view class="title">backgroundColor</view>
-<progress percent="30" backgroundColor="pink" />
-<!--active-->
-<view class="title">active</view>
-<progress percent="60" active />
+<view class="wrap">
+  <!--默认-->
+  <view class="title">默认</view>
+  <progress />
+  <!--percent-->
+  <view class="title">percent</view>
+  <progress percent="30" />
+  <!--show-info-->
+  <view class="title">show-info</view>
+  <progress percent="30" show-info />
+  <!--stroke-width-->
+  <view class="title">stroke-width</view>
+  <progress percent="30" stroke-width="3" />
+  <!--color-->
+  <view class="title">color</view>
+  <progress percent="30" color="pink" />
+  <!--activeColor-->
+  <view class="title">activeColor</view>
+  <progress percent="30" activeColor="pink" />
+  <!--backgroundColor-->
+  <view class="title">backgroundColor</view>
+  <progress percent="30" backgroundColor="pink" />
+  <!--active-->
+  <view class="title">active</view>
+  <progress percent="60" active />
+</view>
+
 

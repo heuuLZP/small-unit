@@ -1,4 +1,7 @@
 /* input.wxss */
+.wrap {
+  padding: 20rpx 30rpx;
+}
 input {
   width: 400rpx;
   margin-left: 30rpx;

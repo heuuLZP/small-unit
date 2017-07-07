@@ -1,4 +1,7 @@
 /* button.wxss */
+.wrap {
+  padding: 20rpx 30rpx;
+}
 .red {
   background: red;
 }

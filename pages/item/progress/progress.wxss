@@ -1,1 +1,4 @@
 /* progress.wxss */
+.wrap {
+  padding: 20rpx 30rpx;
+}
