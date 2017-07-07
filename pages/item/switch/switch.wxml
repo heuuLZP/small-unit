@@ -1,0 +1,14 @@
+<!--switch.wxml-->
+<view class="wrap">
+  <!--checked-->
+  <view class="title">checked</view>
+  <switch checked />
+  <!--type-->
+  <view class="title">type</view>
+  <block wx:for="{{typeArr}}" wx:key="*this">
+    <switch type="{{item}}" style="display:block;margin-bottom:20rpx;" />
+  </block>
+  <!--color-->
+  <view class="title">color</view>
+  <switch checked color="pink" />
+</view>
