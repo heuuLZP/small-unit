@@ -4,4 +4,9 @@
 - 字母索引
   https://github.com/heuuLZP/small-unit/tree/master/pages/item/letter-index     
 
-  ![letter](C:\Users\user\Desktop\small-unit\img\letter.png)
+  ![letter](./img/letter.png)
+  
+- home
+
+  ![letter](./img/home.png)
+  
