@@ -19,6 +19,9 @@
   padding: 50rpx 30rpx;
   box-sizing: border-box;
 }
+.wrap {
+  padding: 20rpx 30rpx;
+}
 /*注意事项*/
 .remark {
   padding: 0 30rpx;

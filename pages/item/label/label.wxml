@@ -1,0 +1,15 @@
+<!--label.wxml-->
+<view class="wrap">
+  <view class="title">label嵌套</view>
+  <label bindtap="tap_1">
+    <radio value="1" checked="{{checked_1}}" />china
+  </label>
+  <view class="title">label for指定id</view>
+  <label bindtap="tap_2" for="two">
+    <radio id="two" value="1" checked="{{checked_2}}" />china
+  </label>
+  <view class="title">注：</view>
+  <view class="remark">
+    点击方框也可触发radio
+  </view>
+</view>
