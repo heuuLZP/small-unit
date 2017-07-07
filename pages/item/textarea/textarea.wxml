@@ -1,0 +1,37 @@
+<!--textarea.wxml-->
+<view class="wrap">
+  <!--value-->
+  <view class="title">view</view>
+  <textarea value="啦啦啦" />
+  <!--placeholder-->
+  <view class="title">placeholder</view>
+  <textarea placeholder="啦啦啦" />
+  <!--maxlength-->
+  <view class="title">maxlength</view>
+  <textarea maxlength="20" />
+  <!--auto-focus-->
+  <view class="title">auto-focus</view>
+  <textarea auto-focus />
+  <!--auto-height-->
+  <view class="title">auto-height</view>
+  <textarea auto-height />
+  <!--fixed-->
+  <view class="title">fixed</view>
+  <view style="position:fixed">
+    <textarea fixed placeholder="啦啦啦" />
+  </view>
+  <view class="title">注：</view>
+  <view class="remark">以下是测试，在真机上fixed属性才会起作用</view>
+  <!--auto-height-->
+  <view class="title">auto-height</view>
+  <textarea  auto-height />
+  <!--auto-height-->
+  <view class="title">auto-height</view>
+  <textarea  auto-height />
+  <!--auto-height-->
+  <view class="title">auto-height</view>
+  <textarea  auto-height />
+  <!--auto-height-->
+  <view class="title">auto-height</view>
+  <textarea  auto-height />
+</view>

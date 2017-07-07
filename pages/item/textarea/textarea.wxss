@@ -1,0 +1,5 @@
+/* textarea.wxss */
+textarea {
+  height: 100rpx;
+  border: 1px solid #e4e4e4;
+}

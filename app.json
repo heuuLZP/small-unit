@@ -20,7 +20,8 @@
     "pages/item/picker-view/picker-view",
     "pages/item/radio/radio",
     "pages/item/slider/slider",
-    "pages/item/switch/switch"
+    "pages/item/switch/switch",
+    "pages/item/textarea/textarea"
   ],
   "window": {
     "backgroundTextStyle": "light",
