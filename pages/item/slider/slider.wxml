@@ -1,0 +1,28 @@
+<!--slider.wxml-->
+<view class="wrap">
+  <!--min-->
+  <view class="title">min</view>
+  <slider min="50" />
+  <!--max-->
+  <view class="title">max</view>
+  <slider max="50" />
+  <view class="title">注：</view>
+  <view class="remark">
+    min和nax只是影响实际值，但是不会在页面上表现出来。
+  </view>
+  <!--step-->
+  <view class="title">step</view>
+  <slider step="10" />
+  <!--value-->
+  <view class="title">value</view>
+  <slider value="30" />
+   <!--show-value-->
+  <view class="title">show-value</view>
+  <slider value="50" show-value />
+   <!--backgroundColor-->
+  <view class="title">backgroundColor</view>
+  <slider value="70" backgroundColor="blue" />
+   <!--activeColor-->
+  <view class="title">activeColor</view>
+  <slider value="70" backgroundColor="blue" activeColor="pink" />
+</view>
