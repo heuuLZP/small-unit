@@ -18,7 +18,9 @@
     "pages/item/label/label",
     "pages/item/picker/picker",
     "pages/item/picker-view/picker-view",
-    "pages/item/picker-view/picker-view"
+    "pages/item/picker-view/picker-view",
+    "pages/item/radio/radio",
+    "pages/item/radio/radio"
   ],
   "window": {
     "backgroundTextStyle": "light",
